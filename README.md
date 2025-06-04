@@ -13,7 +13,7 @@ pip install woxchain-python
 ```python
 from woxchain.client import WoxClient
 
-client = WoxClient("https://testrpc.woxscan.com")
+client = WoxClient("https://rpctest.woxchain.com")
 balance = client.get_balance("0xYourAddressHere")
 print("Balance:", balance)
 ```
